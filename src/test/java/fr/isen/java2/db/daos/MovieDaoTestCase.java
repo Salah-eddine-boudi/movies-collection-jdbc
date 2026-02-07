@@ -117,7 +117,7 @@ public class MovieDaoTestCase {
 		// THEN - Vérifier que le movie retourné a un ID
 		assertThat(addedMovie).isNotNull();
 		assertThat(addedMovie.getId()).isNotNull();
-		assertThat(addedMovie.getId()).isEqualTo(4);  // Car on a déjà 3 films
+		assertThat(addedMovie.getId()).isEqualTo(4);  
 		
 		// Vérifier que les autres champs sont identiques
 		assertThat(addedMovie.getTitle()).isEqualTo("New Movie Title");
@@ -131,6 +131,6 @@ public class MovieDaoTestCase {
 		List<Movie> allMovies = movieDao.listMovies();
 		
 		// THEN
-		assertThat(allMovies).hasSize(4);  // 3 initiaux + 1 nouveau
+		assertThat(allMovies).hasSize(4);  
 	}
 }
