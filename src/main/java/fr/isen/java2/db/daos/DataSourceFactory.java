@@ -19,7 +19,7 @@ public class DataSourceFactory {
 	 * Factory class for database connections.
 	 * Uses DriverManager for database-agnostic implementation.
 	 * 
-	 * @author Salah 
+	 * @author SALAH EDDINE
 	 * @version 1.0
 	 * @since 2026-02
 	 */

@@ -14,7 +14,7 @@ import fr.isen.java2.db.entities.Genre;
  * Data Access Object for Genre entity.
  * Provides CRUD operations for movie genres in the database.
  * 
- * @author SALAH
+ * @author SALAH EDDINE
  * @version 1.0
  * @since February 2026
  */

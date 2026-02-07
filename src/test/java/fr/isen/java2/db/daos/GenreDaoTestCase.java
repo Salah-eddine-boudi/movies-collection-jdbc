@@ -47,7 +47,7 @@ public class GenreDaoTestCase {
 	public void shouldGetGenreByName() {
 		// WHEN
 		Optional<Genre> optionalGenre = genreDao.getGenre("Comedy");
-		// THEN
+		// THEN 
 		assertThat(optionalGenre).isPresent();
 		Genre genre = optionalGenre.get();
 		assertThat(genre.getId()).isEqualTo(2);
@@ -66,7 +66,7 @@ public class GenreDaoTestCase {
 	public void shouldAddGenre() throws Exception {
 		// WHEN 
 		genreDao.addGenre("Western");
-		// THEN
+		//  THEN
 		Connection connection = DataSourceFactory.getDataSource().getConnection();
 		Statement statement = connection.createStatement();
 		ResultSet resultSet = statement.executeQuery("SELECT * FROM genre WHERE name='Western'");

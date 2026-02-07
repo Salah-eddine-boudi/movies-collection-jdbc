@@ -18,7 +18,7 @@ import fr.isen.java2.db.entities.Movie;
  * DAO for Movie entity - Manages database operations for movies.
  * Includes JOIN operations with Genre table.
  * 
- * @author SALAH
+ * @author SALAH EDDINE
  * @version 1.0
  * @since 2026-02
  */
